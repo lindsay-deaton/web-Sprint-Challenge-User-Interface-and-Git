@@ -122,26 +122,31 @@ a:active{
     width: 800px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display: block;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+   
 }
 
 .middle-content .boxesrow1 {
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
 }
 
 .middle-content .boxesrow1 {
-    height: 100px;
+    /* height: 100px; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    align-content: space-between;
 }
+.boxesrow1
+
 .boxes {
     margin: 20px;
 }
