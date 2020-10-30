@@ -268,7 +268,7 @@ a:active{
 }
 
 footer {
-    width: 800px;
+    width: 775px;
     background: black;
 }
 
@@ -321,15 +321,21 @@ img {
     width:100%;
     margin-bottom: .5rem;
 }
+.borders {
+    border-bottom: 1px dotted black;
+}
 button {
     display: block;
     font-size: 1rem;
-    margin: .7rem 0;
+    margin: 1rem 0;
     width: 8rem;
     height: 2.5rem;
     padding: .7rem;
     border-radius:.5rem;
     border-color: 1px solid black;
     text-align: center;
+}
 
+.bottom {
+    margin: 2.5rem 0;
 }
