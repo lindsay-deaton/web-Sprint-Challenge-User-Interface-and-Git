@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid #4f4f4f;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -82,6 +82,9 @@ p {
     align-items: flex-end;
 }
 /*inside header*/   .links {
+    width: 100%;
+    padding-top: 2  px;
+    margin-right: 40px;
     display:inline-block;
     color: black;
 }
@@ -145,7 +148,6 @@ a:active{
     justify-content: space-around;
     align-content: space-between;
 }
-.boxesrow1
 
 .boxes {
     margin: 20px;
@@ -300,8 +302,7 @@ section {
     /* justify-content: flex-start; */
     margin-top: 20px;
     padding-top: 20px;
-    border-top: 1px dotted black;
-    
+        
 }
 
 .imgs1 {
