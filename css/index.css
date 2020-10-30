@@ -68,7 +68,7 @@ p {
     line-height: 1.4;
 }
 
-/*holds everything*/ .container {
+/*holds top everything*/ .container {
     display: block;
     /* width: 800px; */
     margin: 0 auto;
@@ -281,14 +281,49 @@ footer nav .foots {
 
 /*---about page styles---*/
 
+.city {
+    margin: 0 auto;
+    }
 .about {
     display: block;
     width: 770px;       margin: 0 auto;
 
 }
+section {
+    width: 100%;
+    display: flex;
+    /* justify-content: flex-start; */
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dotted black;
+    
+}
 
-.imgs {
+.imgs1 {
     width: 400px;
+    display: block;
+    padding-right: 1rem;
+    
 
+}
+.imgs2 {
+    width: 400px;
+    display: block;
+    padding-left: 1rem;
+}
+img {
+    width:100%;
+    margin-bottom: .5rem;
+}
+button {
+    display: block;
+    font-size: 1rem;
+    margin: .7rem 0;
+    width: 8rem;
+    height: 2.5rem;
+    padding: .7rem;
+    border-radius:.5rem;
+    border-color: 1px solid black;
+    text-align: center;
 
 }
